@@ -1,0 +1,69 @@
+{"intents": [
+    {"tag": "salam",
+    "patterns": ["hello", "hey", "halo", "hi"],
+    "responses": ["hello!", "hey", "apa yang bisa saya bantu?"],
+    "context_set": ""
+    },
+    {"tag": "selamat tinggal",
+    "patterns": ["see you later", "selamat tinggal", "terimakasih", "bye"],
+    "responses": ["goodbye!", "okay", "senang berbincang denganmu"],
+    "context_set": ""
+    },
+    {"tag": "nama",
+    "patterns": ["siapa namamu?", "dengan siapa aku berbicara?", "what is your name"],
+    "responses": ["saya asisten dari pihak Unimed, ada yang bisa saya bantu?"],
+    "context_set": ""
+    },
+    {"tag": "perkenalan",
+    "patterns": ["apa itu Unimed?", "dimana lokasi Unimed?", "ceritakan sedikit tentang Unimed"],
+    "responses": ["Universitas Negeri Medan", "Berlokasi di Jalan Willem Iskandar, Pasar V Medan Estate, Percut Sei Tuan, Deli Serdang (dekat perbatasan Kota Medan)", "Unimed awalnya IKIP Medan menjadi Universitas dimaksudkan sebagai upaya peningkatan mutu penyelenggaraan Lembaga Pendidikan Tenaga Kependidikan (LPTK). Perubahan kelembagaan menjadi Universitas Negeri Medan yang peresmiannya dilaksanakan pada bulan Februari 2000 dengan SK Presiden No. 124 Tahun 1999, tanggal 7 Oktober 1999 memberikan perluasan mandat (widen mandate) lembaga dari yang sebelumnya hanya mengelola bidang-bidang jurusan/program studi kependidikan (Dik) yaitu Sarjana Pendidikan (S.Pd), setelah menjadi universitas juga menamatkan sarjana non-kependidikan seperti Sarjana Sains (S.Si), Sarjana Ekonomi (S.E), Sarjana Sastra (S.S) dan sebagainya sesuai dengan jurusan/program studi non kependidikan yang diikuti."],
+    "context_set": ""
+    },
+    {"tag": "fakultas",
+    "patterns": ["ada berapa fakultas?", "ada fakultas apa saja?"],
+    "responses": ["ada 7 fakultas; Fakultas Ilmu Pendidikan (FIP), Fakultas Bahasa dan Seni (FBS), Fakultas Ilmu Sosial (FIS), Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Fakultas Teknik (FT), Fakultas Ilmu, Keolahragaan (FIK), Fakultas Ekonomi (FE)"],
+    "context_set": ""
+    },
+    {"tag": "fasilitas",
+    "patterns": ["ada fasilitas apa saja?", "bagaimana dengan fasilitasnya?"],
+    "responses": ["Pusat Pembelajaran, Laboratorium,Digital Library (DIGILIB), Pusat Bahasa, Asrama, ATM, Auditorium"],
+    "context_set": ""
+    },
+    {"tag": "jurusan dan prodi",
+    "patterns": ["ada berapa prodi dalam 1 fakultas?", "sebutkan prodi disetiap fakultasnya"],
+    "responses": ["Program Studi FBS:Pendidikan Bahasa, Musik,Tari,Sastra),(Program Studi FE: Pendidikan Administrasi Perkantoran, Akuntansi, Tata Niaga, Manajemen, Bisnis Digital),(Pendidikan Jasmani, Kesehatan, dan Rekreasi, Pendidikan Kepelatihan Olahraga, Ilmu Keolahragaan), (Program Studi FIP: Pendidikan Guru Pendidikan Anak Usia Dini, PGSD, Pendidikan Luar Sekolah / Pendidikan Masyarakat, BK), (Program Studi FIS :Pendidikan Antropologi, Pendidikan Geografi, Pendidikan Pancasila dan Kewarganegaraan, Pendidikan Sejarah), (Program Studi FMIPA : Pendidikan Kimia, Kimia, Pendidikan Biologi, Biologi, Pendidikan Fisika, Fisika, Pendidikan Mat, Matematika, Bilingual,Ilkom), (Program Studi FT: Pendidikan Tata Boga, Busana, Rias, Pendidikan Teknik Bangunan, Pendidikan Teknik Elektro, Pendidikan Teknik Mesin, Pendidikan Teknik Otomotif, Teknik Sipil, Gizi, Teknik Elektro, Pendidikan Teknologi Informatika dan Komputer, D4 Manajemen Konstruksi, D3 Teknik Sipil, D3 Teknik Mesin"],
+    "context_set": ""
+    },
+    {"tag": "organisasi",
+    "patterns": ["bagaimana dengan organisasinya?", "jelaskan tentang organisasinya", "organisasi apa saja yang ada di Unimed?"],
+    "responses": ["organisasi yang ada antara lain: Unit Kegiatan Mahasiswa (UKM), terdiri atas 12 unit: Unit Kegiatan Mahasiswa Islam (UKMI) Ar-Rahman,Unit Kegiatan Mahasiswa Kristen Kristen Protestan (UKMKP),Unit Kegiatan Kerohanian Mahasiswa Katolik (UKKMK) Santo Martinus,Olahraga,Tarung Derajat,Pramuka Mahasiswa Gudep 13471-13472,Resimen Mahasiswa (MENWA),Mahasiswa Pencinta Alam (MAPALA),Korps Suka Rela Palang Merah Indonesia (KSR PMI),Unit Kegiatan Mahasiswa Teater LKK,Unit Mahasiswa Pers Kampus Kreatif,Unit Kegiatan Mahasiswa Marching Band"],
+    "context_set": ""
+    },
+    {"tag": "kurikulum",
+    "patterns": ["kurikulum yang ada di Unimed", "kurikulum apa yang digunakan Unimed?", "bagaimana dengan kurikulum di Unimed"],
+    "responses": ["Unimed menggunakan kurikulum KKNI (Kerangka Kualifikasi Nasional Indonesia), dimana dengan sistem 6 tugas yaitu : Tugas Rutin, Critical Book Review, Critical Journal Review, Rekayasa Ide, Mini Riset, & Projek"],
+    "context_set": ""
+    },
+    {"tag": "penerimaan",
+    "patterns": ["ada berapa tahapan seleksi untuk masuk ke unimed", "ada berapa jalur untuk ke unimed"],
+    "responses": ["ada tahapan SNMPTN, SBMPTN, dan seleksi Mandiri"],
+    "context_set": ""
+    },
+    {"tag": "kriteria",
+    "patterns": ["bagaimana dengan kriteria penerimaan mahasiswa baru jalur snm, sbm dan mandiri", "apa saja syarat untuk SNMPTN, SBM dan Mandiri"],
+    "responses": ["Kriteria penerimaan mahasiswa baru jalur SNMPTN dan SBMPTN berpedoman kepada kebijakan LTMPT dan Rektor.Kriteria penerimaan mahasiswa baru jalur SNMPTN berdasarkan hasil penelusuran prestasi akademik dan/atau portofolio calon mahasiswa; Kriteria penerimaan mahasiswa baru jalur SBMPTN berdasarkan hasil UTBK; Kriteria penerimaan mahasiswa baru jalur Seleksi Mandiri berdasarkan hasil UTBK/Ujian Tulis dan Ujian keterampilan; Prosedur Penerimaan Mahasiswa Baru Layanan penerimaan calon mahasiswa baru di Universitas Negeri Medan diantaranya : Program Sarjana (S-1)/Diploma (D-3)/Mandiri (S-1), memiliki persyaratan sebagai berikut: lulus SMA/MA/SMK/MAK sederajat; memiliki ijazah asli SMA/MA/SMK/MAK sederajat atau surat keterangan lulus dari kepala sekolah bagi lulusan tahun berjalan; lulusan SMA/MA/SMK/MAK sederajat yang memiliki NPSN; lulusan SMA/MA/SMK/MAK sederajat yang memiliki NISN; memiliki tanda pengenal KTP/Kartu Keluarga; membayar biaya pendaftaran jalur SBMPTN dan Mandiri; mengikuti tes seleksi sesuai pilihan seleksi yang dipilih (SNMPTN/SBMPTN/ SELEKSI MANDIRI);"],
+    "context_set": ""
+    },
+    {"tag": "prosedur",
+    "patterns": ["bagaimana dengan tata cara penerimaannya", "bagaimana dengan persyaratan"],
+    "responses": ["mekanisme atau prosedur penerimaan mahasiswa baru; memilih jalur seleksi SNMPTN/SBMPTN/MANDIRI; melakukan pendaftaran online jalur seleksi SNMPTN/SBMPTN/MANDIRI; melakukan verifikasi data pendaftar untuk jalur SNMPTN; mengikuti tes UTBK dan atau ujian keterampilan untuk jalur SBMPTN/MANDIRI; pengumuman hasil tes masuk jalur seleksi SNMPTN/SBMPTN/ MANDIRI; melakukan registrasi calon mahasiswa baru yang dinyatakan lulus jalur SNMPTN/SBMPTN/ MANDIRI; membayar UKT berdasarkan ketetapan yang telah ditentukan;"],
+    "context_set": ""
+
+    },
+    {"tag": "kuota",
+    "patterns": ["berapa jumlah penerimaan mahasiswa baru tiap tahunnya?", "berapa kuota yang ditampung unimed?"],
+    "responses": ["Kouta daya tampung setiap program studi di Universitas Negeri Medan dengan mengikuti ketentuan dari LTMPT. Daya tampung mahasiswa baru Universitas Negeri Medan ialah: SNMPTN : 20 % SBMPTN : 50 % MANDIRI : 30 %"],
+    "context_set": ""
+    }
+]
+}

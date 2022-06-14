@@ -1,7 +1,10 @@
 # Chatbot-UNIMED
 
-Mustang-HPE
-homeroom coach : M.ikhsan
+Proyek Akhir Foundations of AI and Life Skills for Gen-Z
+PT Orbit Ventura Indonesia
+
+Homeroom coach Mustang-HPE : M.ikhsan  
+
 Proyek ini dikerjakan oleh :
 - Ani Musrifah
 - Crish Evanggelyn Siboro
